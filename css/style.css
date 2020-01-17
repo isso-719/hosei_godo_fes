@@ -418,7 +418,7 @@ body {
 }
 @media (max-width: 767px) {
   .imSVtG {
-    font-size: 12px;
+    font-size: 16px;
     gap: 2px;
   }
 }
@@ -496,7 +496,12 @@ body {
   grid-auto-flow: column;
   -webkit-box-pack: center;
   justify-content: center;
-  gap: 8px;
+  gap: 40px;
+}
+@media (max-width: 767px) {
+  .dhuhTT {
+    gap: 35px;
+  }
 }
 .dhuhTT div:first-of-type {
   transform: translateX(-4px);
