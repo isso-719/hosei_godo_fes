@@ -180,6 +180,11 @@ body {
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 767px) {
+  #about_wrap {
+    background-image: url(../images/about_small.jpg);
+  }
+}
 .oPoxWz {
   position: relative;
   display: grid;
@@ -579,10 +584,18 @@ body {
 }
 .sns_btn i {
   position: absolute;
-  top: 35%;
+  top: 15px;
   left: 50%;
   transform: translateX(-50%);
   overflow: auto;
+}
+.line {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: auto;
+  width: 60px;
 }
 .sns_btn:hover {
   transform: scale(1.2);
