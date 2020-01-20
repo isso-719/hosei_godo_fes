@@ -582,14 +582,23 @@ body {
   vertical-align: middle;
   animation: 1.1s linear 0s 1 normal both running KBCphb;
 }
-.sns_btn i {
+.twitter_svg {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: auto;
+  width: 50px;
+}
+.instagram_svg {
   position: absolute;
   top: 15px;
   left: 50%;
   transform: translateX(-50%);
   overflow: auto;
+  width: 50px;
 }
-.line {
+.line_svg {
   position: absolute;
   top: 10px;
   left: 50%;
