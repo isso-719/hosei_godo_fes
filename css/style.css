@@ -4,6 +4,13 @@ body {
   margin: 0;
   font-family: "Noto Sans JP", sans-serif;
 }
+h1 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+  font-size: 30px;
+}
 .noscroll {
   overflow: hidden;
   height: 100vh;
@@ -20,12 +27,11 @@ body {
     text-align: center;
   }
 }
-#controller img {
-  position: relative;
-  width: 262px;
-  height: 21px;
-  padding: 20.5px 11px;
-  vertical-align: middle;
+#controller h1 {
+  color: #ffffff;
+  padding: 0 11px;
+  line-height: 64px;
+  font-size: 25px;
 }
 #main_visual {
   position: relative;
@@ -665,7 +671,7 @@ body {
   position: absolute;
   width: 100%;
 }
-#footer h1 {
+#footer h2 {
   font-size: 16px;
   color: white;
   margin: 5px;
