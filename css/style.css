@@ -7,9 +7,9 @@ body {
 h1 {
   margin: 0;
 }
-h3 {
+h2 {
   margin: 0;
-  font-size: 30px;
+  font-size: 35px;
 }
 .noscroll {
   overflow: hidden;
@@ -669,12 +669,15 @@ h3 {
   text-align: center;
   background: black;
   position: absolute;
-  width: 100%;
+  width: calc(100% - 10px);
+  padding: 10px 5px;
 }
 #footer h2 {
   font-size: 16px;
   color: white;
-  margin: 5px;
+}
+#footer small {
+  color: white;
 }
 @keyframes XQEJQi {
   0% {
