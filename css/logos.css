@@ -1,3 +1,7 @@
+#logo_wrap {
+  position: relative;
+  top: 50%;
+}
 .main_logo {
   width: 45%;
   position: absolute;
