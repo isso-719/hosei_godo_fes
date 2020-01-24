@@ -91,6 +91,7 @@ h2 {
   width: 730px;
   transform: translate(-50%, -50%);
   text-align: center;
+  z-index: 5;
 }
 @media (max-width: 767px) {
   #fuchi_logo {
