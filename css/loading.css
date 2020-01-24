@@ -83,7 +83,7 @@
     color: #fff;
   }
   100% {
-    color: ##cd5da0;
+    color: #cd5da0;
   }
 }
 @keyframes textColour {
@@ -101,6 +101,9 @@
   height: 100vh;
   background: #222;
   z-index: 1000;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN",
+    "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",
+    sans-serif;
 }
 
 .e-loadholder {

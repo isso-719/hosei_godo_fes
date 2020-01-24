@@ -22,8 +22,15 @@
   <link rel="apple-touch-icon" href="images/favicon.ico" />
   <meta name="google-site-verification" content="nAChSxNahq7fAGyeTqOzkPekrbjIny5Txst5QArHoVA" />
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/loading.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Preload -->
+  <link rel="preload" href="css/loading.css" as="style">
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="dns-prefetch" href="https://code.jquery.com/jquery-3.4.1.min.js">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap">
+  <link rel="dns-prefetch" href="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com/gtag/js?id=UA-84261059-11">
 </head>
 <body class="noscroll">
   <div id="loading">
@@ -213,12 +220,14 @@
     </div>
   </div>
   <!-- Java Script -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/loading.js"></script>
-  <script src="js/content.js"></script>
-  <script src="js/modal.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+  <script src="js/loading.js" defer></script>
+  <script src="js/content.js" defer></script>
+  <script src="js/modal.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" defer></script>
+  <script src="js/font.js" defer></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84261059-11"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84261059-11" defer></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
