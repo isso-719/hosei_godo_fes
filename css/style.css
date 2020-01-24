@@ -60,7 +60,8 @@ h2 {
   height: 100vh;
   background: linear-gradient(64deg, #c56cd6, #0470dc);
 }
-.guHaMq {
+.main_logo {
+  width: calc(100% - 72px);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -68,22 +69,12 @@ h2 {
   animation: 0.5s cubic-bezier(0, 0, 0.05, 0.99) 0s 1 normal both running XQEJQi,
     2s ease-in-out 0s infinite normal none running TNbKWc;
 }
-@media (max-width: 767px) {
-  .guHaMq {
-    width: calc(100% - 72px);
-  }
-}
-@media (max-width: 767px) {
-  .guHaMq img {
-    width: 100%;
-  }
-}
 @media (min-width: 768px) {
-  .guHaMq img {
+  .main_logo {
     height: 303px;
   }
 }
-#fuchi_logo {
+.fuchi_logo {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -93,7 +84,7 @@ h2 {
   z-index: 5;
 }
 @media (max-width: 767px) {
-  #fuchi_logo {
+  .fuchi_logo {
     width: calc(100% - 32px);
   }
 }
