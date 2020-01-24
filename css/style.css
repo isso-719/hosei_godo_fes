@@ -61,31 +61,33 @@ h2 {
   background: linear-gradient(64deg, #c56cd6, #0470dc);
 }
 .main_logo {
-  width: calc(100% - 72px);
+  width: 45%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
   animation: 0.5s cubic-bezier(0, 0, 0.05, 0.99) 0s 1 normal both running XQEJQi,
     2s ease-in-out 0s infinite normal none running TNbKWc;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .main_logo {
-    height: 303px;
+    width: 280px;
   }
 }
 .fuchi_logo {
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 730px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 5;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  z-index: 2;
 }
 @media (max-width: 767px) {
   .fuchi_logo {
-    width: calc(100% - 32px);
+    width: 300px;
   }
 }
 .tJvnkt {
