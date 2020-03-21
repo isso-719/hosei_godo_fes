@@ -527,11 +527,11 @@ h2 {
 }
 
 #share_wrap {
-  background: -webkit-linear-gradient(0deg, #c56cd6, #0470dc);
+  background: black;
 }
-#share {
+/* #share {
   background: -webkit-linear-gradient(0deg, #c56cd6, #0470dc);
-}
+} */
 .sns_btn {
   display: inline-block;
   color: #fff;
